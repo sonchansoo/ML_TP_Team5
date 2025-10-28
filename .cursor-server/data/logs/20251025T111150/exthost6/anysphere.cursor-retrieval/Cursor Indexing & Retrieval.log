@@ -31,3 +31,16 @@
 2025-10-28 04:19:55.377 [info] Aborting indexing job.
 2025-10-28 04:19:55.377 [error] We currently do not allow indexing the home directory.
 2025-10-28 04:19:55.377 [info] Indexing job successfully done or aborted.
+2025-10-28 04:24:48.377 [info] multiCodebaseIndexingJob dispose
+2025-10-28 04:24:48.377 [info] Aborting indexing job.
+2025-10-28 04:24:48.377 [error] We currently do not allow indexing the home directory.
+2025-10-28 04:24:48.377 [info] Indexing job successfully done or aborted.
+2025-10-28 04:29:30.969 [error] Error getting user commits: Git model not found
+2025-10-28 04:29:41.376 [info] multiCodebaseIndexingJob dispose
+2025-10-28 04:29:41.376 [info] Aborting indexing job.
+2025-10-28 04:29:41.376 [error] We currently do not allow indexing the home directory.
+2025-10-28 04:29:41.376 [info] Indexing job successfully done or aborted.
+2025-10-28 04:34:34.377 [info] multiCodebaseIndexingJob dispose
+2025-10-28 04:34:34.377 [info] Aborting indexing job.
+2025-10-28 04:34:34.377 [error] We currently do not allow indexing the home directory.
+2025-10-28 04:34:34.377 [info] Indexing job successfully done or aborted.

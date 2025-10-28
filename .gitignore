@@ -13,3 +13,7 @@
 .cursorrules.yml
 .cursorrules.yaml
 .bashrc
+.cursor
+.cursor/
+.gnupg/
+.cursor-server/
