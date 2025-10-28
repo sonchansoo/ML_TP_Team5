@@ -1,4 +1,0 @@
-2025-10-28 04:00:57.658 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
-2025-10-28 04:00:57.658 [info] Creating repo client with backend url: https://repo42.cursor.sh
-2025-10-28 04:00:58.101 [info] Git indexing is disabled in the server config.
-2025-10-28 04:14:54.244 [error] Error getting server config, using proto default config Canceled

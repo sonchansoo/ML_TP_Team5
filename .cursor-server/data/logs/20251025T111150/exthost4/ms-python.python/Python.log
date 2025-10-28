@@ -1,6 +1,0 @@
-2025-10-28 03:31:37.523 [warning] Dir "/root/.pixi/envs" is not watchable (directory does not exist)
-2025-10-28 03:31:37.581 [info] > /usr/bin/python3 -I ./.cursor-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/get_output_via_markers.py ./.cursor-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/interpreterInfo.py
-2025-10-28 03:31:37.598 [info] Python 인터프리터 경로: /usr/bin/python3
-2025-10-28 03:31:37.609 [info] > pyenv which python
-2025-10-28 03:31:37.609 [info] cwd: .
-2025-10-28 03:31:37.704 [info] 언어 서버가 [없음]으로 설정되어 있으므로 편집기 지원이 비활성 상태입니다.

@@ -1,9 +1,0 @@
-[Info  - 04:00:56.164] [pylance import] Already imported settings globally
-[Info  - 04:00:56.164] [pylance import] Already imported settings for remote attached-container://1cd3a3df8969
-[Info  - 04:00:56.164] [pylance import] Already imported settings for workspace root [컨테이너 sonny/ml_tp-app(ml_tp_container) @ rina_vpn]
-[Info  - 04:00:56.164] [pylance import] Already imported settings for workspace folder /root
-[Info  - 04:00:56.173] failed to find pyright executable, falling back to bundled:
-/usr/bin/basedpyright-langserver
-[Info  - 04:00:56.173] using bundled pyright
-[Info  - 04:00:56.173] running node with argzs: --max-old-space-size=15982
-[Info  - 04:00:56.173] using default node executable
