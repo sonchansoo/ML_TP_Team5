@@ -1,4 +1,4 @@
-# 🏥 Machine Learning Term Project - 최종 완성
+#  Machine Learning Term Project - 최종 완성
 
 ## 증상 기반 질병 예측 및 약물 추천 하이브리드 시스템
 
@@ -45,7 +45,7 @@
 ```
 n_neighbors: 5
 metric: euclidean
-테스트 정확도: 100.00% ⭐
+테스트 정확도: 100.00% 
 Precision: 100% | Recall: 100% | F1-Score: 100%
 ```
 
@@ -74,7 +74,7 @@ Precision: 99.07% | Recall: 98.66% | F1-Score: 98.76%
 
 ---
 
-## 🎯 하이브리드 시스템 아키텍처
+##  하이브리드 시스템 아키텍처
 
 ### 【 2단계 처리 파이프라인 】
 
@@ -95,7 +95,7 @@ Precision: 99.07% | Recall: 98.66% | F1-Score: 98.76%
 
 ---
 
-## 📈 최종 성능 지표
+##  최종 성능 지표
 
 ### 【 질병 예측 성능 】
 - Accuracy: **100.00%** (k-NN)
@@ -115,32 +115,32 @@ Precision: 99.07% | Recall: 98.66% | F1-Score: 98.76%
 
 ---
 
-## 📁 최종 프로젝트 구조
+## 최종 프로젝트 구조
 
 ```
 /root/
-├── final_project.py ⭐                (메인 프로젝트 파일 - 19 KB)
-│   └── 완벽한 End-to-End 파이프라인
+├── final_project.py                 (메인 프로젝트 파일)
+│   
 │
 ├── models_final/                     (저장된 모델 및 데이터)
-│   ├── best_disease_model.pkl        (k-NN 모델 - 5.0 MB)
-│   ├── hybrid_system.pkl             (통합 시스템 - 5.3 MB)
-│   ├── condition_drug_rating.csv     (약물 데이터 - 356 KB)
+│   ├── best_disease_model.pkl        (k-NN 모델)
+│   ├── hybrid_system.pkl             (통합 시스템)
+│   ├── condition_drug_rating.csv     (약물 데이터)
 │   └── metadata.json                 (메타데이터)
 │
 ├── visualizations/                   (시각화 이미지)
-│   ├── 01_model_performance.png      ✨ 모델 성능 비교
-│   ├── 02_rating_distribution.png    ✨ 약물 평점 분포
-│   └── 03_dataset_comparison.png     ✨ 데이터셋 크기 비교
+│   ├── 01_model_performance.png       모델 성능 비교
+│   ├── 02_rating_distribution.png     약물 평점 분포
+│   └── 03_dataset_comparison.png      데이터셋 크기 비교
 │
 ├── FINAL_SUMMARY.md                  (이 파일)
 ├── FINAL_REPORT.md                   (상세 보고서)
-└── PROJECT_SUMMARY.txt               (프로젝트 요약)
+
 ```
 
 ---
 
-## 🚀 프로젝트 실행 방법
+##  프로젝트 실행 방법
 
 ### 1️⃣ 프로젝트 실행
 ```bash
@@ -195,7 +195,7 @@ ls -lh /root/visualizations/
 
 ---
 
-## 🎓 학습 성과
+##  학습 성과
 
 ### 1. 추천 시스템 설계
 - 콘텐츠 기반 필터링의 원리 및 구현
@@ -227,7 +227,6 @@ ls -lh /root/visualizations/
 
 ### 1. 데이터셋 확정
 - ✅ 질병: marslinoedward (훈련) + itachi9604 (테스트)
-- ✅ kaushil268은 중복이므로 제외
 
 ### 2. 모델 성능
 - ✅ k-NN: 100% 정확도 (itachi9604 테스트)
@@ -240,7 +239,7 @@ ls -lh /root/visualizations/
 
 ---
 
-## 📊 코드 통계
+##  코드 통계
 
 | 항목 | 수치 |
 |------|------|
@@ -252,7 +251,7 @@ ls -lh /root/visualizations/
 
 ---
 
-## ✨ 특이사항
+##  특이사항
 
 - **100% 정확도**: k-NN 모델이 itachi9604 테스트 데이터에서 완벽한 성능을 달성
 - **다중 데이터셋 통합**: 2개의 질병 데이터와 2개의 약물 데이터를 성공적으로 통합
@@ -262,7 +261,7 @@ ls -lh /root/visualizations/
 
 ## 최종 결론
 
-- 소스코드: `final_project.py` ⭐
+- 소스코드: `final_project.py` 
 - 저장된 모델: `models_final/`
 - 시각화: `visualizations/`
 - 보고서: `FINAL_SUMMARY.md`, `FINAL_REPORT.md`
