@@ -1,0 +1,5 @@
+2025-10-28 04:00:57.692 [info] Using repo backend url https://repo42.cursor.sh
+2025-10-28 04:00:59.862 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-10-28 04:06:00.079 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-10-28 04:11:00.480 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-10-28 04:14:54.244 [error] Error getting server config, using proto default config Canceled

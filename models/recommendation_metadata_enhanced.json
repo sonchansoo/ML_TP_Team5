@@ -1,0 +1,11 @@
+{
+  "total_reviews": 427738,
+  "total_diseases": 916,
+  "total_drugs": 3667,
+  "average_rating": 7.384993420359058,
+  "datasets_used": [
+    "yash9439 (Train+Test)",
+    "jessicali9530 (Train+Test)"
+  ],
+  "data_quality": "Enhanced"
+}

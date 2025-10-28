@@ -1,0 +1,11 @@
+{
+  "system_type": "Hybrid Disease Prediction & Drug Recommendation",
+  "disease_prediction_model": "k-NN",
+  "disease_accuracy": 1.0,
+  "recommendation_method": "Collaborative Filtering (Cosine Similarity)",
+  "total_symptoms": 132,
+  "total_diseases": 41,
+  "total_conditions_in_drugs": 884,
+  "total_drugs": 3431,
+  "coverage": "26.8%"
+}

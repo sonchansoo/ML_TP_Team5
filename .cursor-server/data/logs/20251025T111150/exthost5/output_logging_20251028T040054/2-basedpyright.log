@@ -1,0 +1,13 @@
+[Info  - 4:00:56 AM] basedpyright language server 1.32.1 starting
+[Info  - 4:00:56 AM] Server root directory: file:///root/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 4:00:56 AM] Starting service instance "root"
+Received pythonPath from Python extension: /usr/bin/python3
+[Info  - 4:00:56 AM] Setting pythonPath for service "root": "/usr/bin/python3"
+[Info  - 4:00:56 AM] No include entries specified; assuming /root
+[Info  - 4:00:56 AM] Auto-excluding **/node_modules
+[Info  - 4:00:56 AM] Auto-excluding **/__pycache__
+[Info  - 4:00:56 AM] Auto-excluding **/.*
+[Info  - 4:00:56 AM] Assuming Python version 3.10.12.final.0
+[Info  - 4:00:56 AM] Found 2 source files
+[Info  - 4:00:56 AM] BG: Background analysis(1) root directory: file:///root/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 4:00:56 AM] BG: Background analysis(1) started

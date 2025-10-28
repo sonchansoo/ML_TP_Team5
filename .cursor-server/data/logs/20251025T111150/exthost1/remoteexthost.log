@@ -1,0 +1,16 @@
+2025-10-25 11:11:55.781 [info] Extension host with pid 354 started
+2025-10-25 11:11:55.833 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-25 11:11:55.967 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-25 11:11:55.967 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-25 11:11:56.201 [info] Eager extensions activated
+2025-10-25 11:11:56.201 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-10-25 11:11:56.201 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-10-25 11:11:56.201 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-10-25 11:11:56.201 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-25 11:11:56.201 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-25 11:11:56.226 [error] No bundle location found for extension anysphere.cursor-retrieval
+2025-10-25 11:11:56.412 [error] No bundle location found for extension anysphere.cursor-shadow-workspace
+2025-10-25 11:11:56.461 [error] No bundle location found for extension anysphere.cursor-tokenize
+2025-10-25 11:11:58.158 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-10-25 15:55:52.888 [info] Extension host terminating: renderer disconnected for too long (1)
+2025-10-25 15:55:52.907 [info] Extension host with pid 354 exiting with code 0

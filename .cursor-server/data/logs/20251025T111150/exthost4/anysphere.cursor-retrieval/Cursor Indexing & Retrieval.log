@@ -1,0 +1,61 @@
+2025-10-28 03:29:33.452 [error] Error getting repo info: Git model not found
+2025-10-28 03:29:33.452 [error] Error: Git model not found
+	at s.getAPI (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/git/dist/main.js:2:726664)
+	at t.GitProvider.getRawGit (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1488381)
+	at t.GitProvider.executeGitCommandStable (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1488606)
+	at t.GitProvider.getRepoInfo (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1461505)
+	at new t.GitProvider (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1461231)
+	at t.activate (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:2946911)
+	at qme._callActivateOptional (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:138:19145)
+	at qme._callActivate (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:138:18813)
+	at file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:138:16593
+	at async cme._activate (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:134:16337)
+	at async cme._waitForDepsThenActivate (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:134:16279)
+	at async cme._initialize (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:134:15641)
+2025-10-28 03:29:33.452 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-10-28 03:29:33.452 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-10-28 03:29:33.510 [info] Using existing keys for an index
+2025-10-28 03:29:33.510 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-10-28 03:29:33.601 [info] Using existing keys for an index
+2025-10-28 03:29:33.601 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-10-28 03:29:33.603 [warning] Failed to get symbolic ref: Git model not found
+2025-10-28 03:29:33.603 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/root/.git/HEAD')
+2025-10-28 03:29:33.603 [warning] Failed to get branches from remote: Git model not found
+2025-10-28 03:29:33.603 [warning] Failed to get default branch from git config: Git model not found
+2025-10-28 03:29:33.675 [info] Using existing keys for an index
+2025-10-28 03:29:33.675 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-10-28 03:29:33.692 [error] We currently do not allow indexing the home directory.
+2025-10-28 03:29:33.692 [info] Indexing job successfully done or aborted.
+2025-10-28 03:34:26.694 [info] multiCodebaseIndexingJob dispose
+2025-10-28 03:34:26.694 [info] Aborting indexing job.
+2025-10-28 03:34:26.694 [error] We currently do not allow indexing the home directory.
+2025-10-28 03:34:26.694 [info] Indexing job successfully done or aborted.
+2025-10-28 03:39:19.693 [info] multiCodebaseIndexingJob dispose
+2025-10-28 03:39:19.693 [info] Aborting indexing job.
+2025-10-28 03:39:19.693 [error] We currently do not allow indexing the home directory.
+2025-10-28 03:39:19.693 [info] Indexing job successfully done or aborted.
+2025-10-28 03:44:12.695 [info] multiCodebaseIndexingJob dispose
+2025-10-28 03:44:12.695 [info] Aborting indexing job.
+2025-10-28 03:44:12.695 [error] We currently do not allow indexing the home directory.
+2025-10-28 03:44:12.695 [info] Indexing job successfully done or aborted.
+2025-10-28 03:49:05.695 [info] multiCodebaseIndexingJob dispose
+2025-10-28 03:49:05.695 [info] Aborting indexing job.
+2025-10-28 03:49:05.695 [error] We currently do not allow indexing the home directory.
+2025-10-28 03:49:05.695 [info] Indexing job successfully done or aborted.
+2025-10-28 03:53:58.696 [info] multiCodebaseIndexingJob dispose
+2025-10-28 03:53:58.696 [info] Aborting indexing job.
+2025-10-28 03:53:58.696 [error] We currently do not allow indexing the home directory.
+2025-10-28 03:53:58.696 [info] Indexing job successfully done or aborted.
+2025-10-28 03:58:51.696 [info] multiCodebaseIndexingJob dispose
+2025-10-28 03:58:51.696 [info] Aborting indexing job.
+2025-10-28 03:58:51.696 [error] We currently do not allow indexing the home directory.
+2025-10-28 03:58:51.696 [info] Indexing job successfully done or aborted.
+2025-10-28 04:03:44.697 [info] multiCodebaseIndexingJob dispose
+2025-10-28 04:03:44.697 [info] Aborting indexing job.
+2025-10-28 04:03:44.697 [error] We currently do not allow indexing the home directory.
+2025-10-28 04:03:44.697 [info] Indexing job successfully done or aborted.
+2025-10-28 04:05:49.654 [info] multiCodebaseIndexingJob dispose
+2025-10-28 04:05:49.654 [info] Aborting indexing job.
+2025-10-28 04:05:49.654 [error] Error getting server config, using proto default config Canceled
+2025-10-28 04:05:49.655 [error] Error getting server config, using proto default config Canceled
+2025-10-28 04:05:49.655 [error] Error getting server config, using proto default config Canceled

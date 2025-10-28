@@ -1,0 +1,19 @@
+{
+  "test_dataset": "itachi9604/disease-symptom-description-dataset",
+  "test_samples": 4920,
+  "test_diseases": 41,
+  "common_symptoms": 131,
+  "total_symptoms_original": 132,
+  "knn_results": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "dt_results": {
+    "accuracy": 0.9865853658536585,
+    "precision": 0.9907084785133564,
+    "recall": 0.9865853658536585,
+    "f1_score": 0.9876477676596652
+  }
+}

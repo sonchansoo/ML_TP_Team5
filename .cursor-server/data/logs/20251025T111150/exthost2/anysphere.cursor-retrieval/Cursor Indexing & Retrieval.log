@@ -1,0 +1,21 @@
+2025-10-27 15:42:52.680 [error] Error getting repo info: Git model not found
+2025-10-27 15:42:52.680 [error] Error: Git model not found
+	at s.getAPI (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/git/dist/main.js:2:726664)
+	at t.GitProvider.getRawGit (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1488381)
+	at t.GitProvider.executeGitCommandStable (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1488606)
+	at t.GitProvider.getRepoInfo (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1461505)
+	at new t.GitProvider (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:1461231)
+	at t.activate (/root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/extensions/cursor-retrieval/dist/main.js:2:2946911)
+	at qme._callActivateOptional (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:138:19145)
+	at qme._callActivate (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:138:18813)
+	at file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:138:16593
+	at async cme._activate (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:134:16337)
+	at async cme._waitForDepsThenActivate (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:134:16279)
+	at async cme._initialize (file:///root/.cursor-server/bin/3ccce8f55d8cca49f6d28b491a844c699b8719a0/out/vs/workbench/api/node/extensionHostProcess.js:134:15641)
+2025-10-27 15:42:52.680 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-10-27 15:42:52.680 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-10-27 15:42:52.789 [warning] Failed to get symbolic ref: Git model not found
+2025-10-27 15:42:52.789 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2025-10-27 15:42:52.789 [warning] Failed to get branches from remote: Git model not found
+2025-10-27 15:42:52.789 [warning] Failed to get default branch from git config: Git model not found
+2025-10-27 15:42:52.928 [error] NoWorkspaceUriError

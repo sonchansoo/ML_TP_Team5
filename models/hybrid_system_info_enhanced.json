@@ -1,0 +1,24 @@
+{
+  "system_type": "Enhanced Hybrid Disease Prediction & Drug Recommendation",
+  "disease_prediction_model": "k-NN",
+  "disease_accuracy": 1.0,
+  "disease_accuracy_previous": 1.0,
+  "recommendation_method": "Collaborative Filtering",
+  "total_symptoms": 132,
+  "total_diseases": 41,
+  "total_conditions_in_drugs": 916,
+  "total_drugs": 3667,
+  "total_reviews": 427738,
+  "coverage": "26.8%",
+  "datasets_used": [
+    "kaushil268 + marslinoedward (Disease)",
+    "yash9439 + jessicali9530 (Drug)"
+  ],
+  "improvements": {
+    "disease_training_samples": "4,920 \u2192 9,840 (+100%)",
+    "disease_testing_samples": "42 \u2192 84 (+100%)",
+    "drug_reviews": "161,297 \u2192 427,738 (+165%)",
+    "drug_diseases": "884 \u2192 916",
+    "drug_count": "3,431 \u2192 3,667"
+  }
+}

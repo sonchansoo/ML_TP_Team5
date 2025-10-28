@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-10-27T16:05:21.784185",
+  "test_samples": 42,
+  "disease_prediction": {
+    "model": "k-NN",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "top_1_accuracy": 1.0,
+    "top_3_accuracy": 1.0,
+    "top_5_accuracy": 1.0
+  },
+  "drug_recommendation": {
+    "total_diseases_in_system": 41,
+    "total_diseases_in_drug_db": 884,
+    "overlapping_diseases": 11,
+    "coverage_percentage": "26.8%",
+    "average_drugs_per_disease": 32.90909090909091,
+    "average_rating": 8.158091712460354
+  },
+  "hybrid_system": {
+    "end_to_end_coverage": "26.8%",
+    "disease_accuracy": 1.0,
+    "recommendation_quality": "High"
+  }
+}

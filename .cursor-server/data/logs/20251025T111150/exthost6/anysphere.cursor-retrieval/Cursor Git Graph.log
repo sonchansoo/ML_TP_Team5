@@ -1,0 +1,4 @@
+2025-10-28 04:10:08.739 [info] Using repo backend url https://repo42.cursor.sh
+2025-10-28 04:10:11.200 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-10-28 04:15:11.428 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
+2025-10-28 04:20:11.815 [error] Failed to check if git graph is enabled [unimplemented] HTTP 404
