@@ -1,20 +1,16 @@
 """
 ════════════════════════════════════════════════════════════════════════════════════════════════════
-🏥 Machine Learning Term Project - FINAL VERSION (CORRECTED v2)
 증상 기반 질병 예측 및 약물 추천 하이브리드 시스템
 
-데이터셋 정보 (최종 확정):
+데이터셋 정보
 ────────────────────────────────────────────────────────────────────────────────────────────────────
 질병 예측:
-  - 훈련용 (많은 데이터): marslinoedward/disease-prediction-data (4,962개)
-  - 테스트용 (적은 데이터): itachi9604/disease-symptom-description-dataset (4,920개)
+  - 훈련용 : marslinoedward/disease-prediction-data (4,962개)
+  - 테스트용 : itachi9604/disease-symptom-description-dataset (4,920개)
   
 약물 추천:
   - 훈련용: yash9439/drug-review (161,297개) + jessicali9530 (161,297개)
   - 테스트용: 위 데이터셋의 test 활용 (53,766 + 53,766개)
-
-미사용 데이터:
-  ✗ kaushil268/disease-prediction-using-machine-learning (동일한 데이터이므로 미사용)
 
 ════════════════════════════════════════════════════════════════════════════════════════════════════
 """
@@ -47,7 +43,6 @@ os.makedirs(MODEL_PATH, exist_ok=True)
 os.makedirs(VISUALIZATION_PATH, exist_ok=True)
 
 print("\n" + "="*100)
-print("🏥 Machine Learning Term Project - FINAL v2")
 print("증상 기반 질병 예측 및 약물 추천 시스템")
 print("="*100)
 
@@ -57,7 +52,7 @@ print("="*100)
 
 print("\n### PART 1: 데이터 로드 ###\n")
 
-print("📥 1️⃣  질병 예측 - 훈련 데이터 (marslinoedward - 많은 데이터)")
+print("질병 예측 - 훈련 데이터 (marslinoedward)")
 disease_train_path = kagglehub.dataset_download("marslinoedward/disease-prediction-data")
 disease_train_df = pd.read_csv(os.path.join(disease_train_path, "Training.csv"))
 disease_train_df = disease_train_df.drop('Unnamed: 133', axis=1, errors='ignore')
@@ -69,7 +64,7 @@ print(f"  ✓ 훈련: {X_train_disease.shape[0]} 샘플 (marslinoedward)")
 print(f"  ✓ 특성(증상): {X_train_disease.shape[1]}개")
 print(f"  ✓ 질병 종류: {len(y_train_disease.unique())}개")
 
-print("\n📥 2️⃣  질병 예측 - 테스트 데이터 (itachi9604 - 적은 데이터 / 다른 형식)")
+print("\n 질병 예측 - 테스트 데이터 (itachi9604)")
 disease_test_path = kagglehub.dataset_download("itachi9604/disease-symptom-description-dataset")
 disease_test_file = os.path.join(disease_test_path, "dataset.csv")
 disease_test_df = pd.read_csv(disease_test_file)
@@ -131,8 +126,8 @@ drug_test = drug_test_all.dropna(subset=['condition']).copy()
 drug_train['condition'] = drug_train['condition'].str.strip()
 drug_train['drugName'] = drug_train['drugName'].str.strip()
 
-print(f"  ✓ 훈련: {len(drug_train):,} 리뷰")
-print(f"  ✓ 테스트: {len(drug_test):,} 리뷰")
+print(f"   훈련: {len(drug_train):,} 리뷰")
+print(f"   테스트: {len(drug_test):,} 리뷰")
 
 # ============================================================================
 # PART 2: 질병 예측 모델
@@ -390,39 +385,24 @@ metadata = {
 with open(os.path.join(MODEL_PATH, "metadata.json"), 'w') as f:
     json.dump(metadata, f, indent=2)
 
-print(f"✓ 모델 저장: {MODEL_PATH}")
-print(f"✓ 시각화 저장: {VISUALIZATION_PATH}")
+print(f" 모델 저장: {MODEL_PATH}")
+print(f" 시각화 저장: {VISUALIZATION_PATH}")
 
 # ============================================================================
 # FINAL SUMMARY
 # ============================================================================
 
 print("\n" + "="*100)
-print("✅ 프로젝트 최종 완료!")
+print(" 프로젝트 최종")
 print("="*100 + "\n")
 
-print("📋 사용된 데이터셋:")
-print("  ✓ 질병 예측 - 훈련 (많은 데이터):")
-print("    → marslinoedward/disease-prediction-data")
-print("    → 4,962 샘플")
-print()
-print("  ✓ 질병 예측 - 테스트 (적은 데이터):")
-print("    → itachi9604/disease-symptom-description-dataset")
-print("    → 4,920 샘플 (다른 형식으로 변환)")
-print()
-print("  ✗ 미사용:")
-print("    → kaushil268/disease-prediction-using-machine-learning (동일한 데이터)")
-print()
-print("  ✓ 약물 리뷰 (훈련 + 테스트):")
-print("    → yash9439/drug-review + jessicali9530/kuc-hackathon")
-print()
 
-print("📊 최종 성능:")
-print(f"  ✓ 질병 예측 정확도: {max(knn_acc, dt_acc)*100:.2f}% ({best_model_name})")
-print(f"  ✓ 훈련 샘플: {len(X_train_disease)} (질병) + {len(drug_train):,} (약물)")
-print(f"  ✓ 테스트 샘플: {len(X_test_disease)} (질병) + {len(drug_test):,} (약물)")
-print(f"  ✓ 약물 종류: {condition_drug_rating['drugName'].nunique()}개")
-print(f"  ✓ 평균 평점: {condition_drug_rating['avg_rating'].mean():.2f}/10")
+print(" 최종 성능:")
+print(f"   질병 예측 정확도: {max(knn_acc, dt_acc)*100:.2f}% ({best_model_name})")
+print(f"   훈련 샘플: {len(X_train_disease)} (질병) + {len(drug_train):,} (약물)")
+print(f"   테스트 샘플: {len(X_test_disease)} (질병) + {len(drug_test):,} (약물)")
+print(f"   약물 종류: {condition_drug_rating['drugName'].nunique()}개")
+print(f"   평균 평점: {condition_drug_rating['avg_rating'].mean():.2f}/10")
 
 print("\n" + "="*100 + "\n")
 
