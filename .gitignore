@@ -14,6 +14,7 @@
 .cursorrules.yaml
 .bashrc
 .cursor
-.cursor/
-.gnupg/
-.cursor-server/
+.cursor-server
+.gnupg
+.profile
+.gitconfig
