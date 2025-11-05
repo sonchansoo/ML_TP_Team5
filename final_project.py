@@ -74,7 +74,7 @@ print("="*100)
 
 print("\n### PART 1: 데이터 로드 ###\n")
 
-# 🔽 [수정] 새로운 'SympScan' 데이터셋 로드
+# 'SympScan' 데이터셋 로드
 print("📥 1️⃣  질병 예측 - 훈련 데이터 (SympScan)")
 try:
     # API 다운로드 시도
@@ -83,7 +83,7 @@ try:
 except Exception as e:
     print(f"  > API 다운로드 실패. 로컬 파일 로드 시도: 'Diseases_and_Symptoms_dataset.csv'")
     try:
-        # 로컬 파일 로드 (이것을 사용합니다)
+        # 로컬 파일 로드 
         disease_df = pd.read_csv("Diseases_and_Symptoms_dataset.csv")
     except FileNotFoundError:
         print("="*50)
@@ -292,7 +292,7 @@ class HybridRecommendationSystem:
         """
         (신규 로직) 2단계: 질병 → 약물 추천 (콘텐츠 기반 - 리뷰 텍스트 분석)
         """
-        # 1. 원본 리뷰DF에서 해당 질병 리뷰만 필터링 (리뷰 텍스트가 필요함)
+        # 1. 원본 리뷰DF에서 해당 질병 리뷰만 필터링 
         disease_reviews = self.drug_review_df[
             self.drug_review_df['condition'].str.lower() == disease.lower()
         ].copy()
@@ -328,7 +328,7 @@ class HybridRecommendationSystem:
 
     def predict_and_recommend(self, symptoms_dict, n_recommendations=5, method='memory'):
         """
-        [수정] End-to-End: 증상 → 질병 → 약물 추천
+        End-to-End: 증상 → 질병 → 약물 추천
         method: 'memory' (평점) 또는 'content' (리뷰 텍스트) 중 선택
         """
         predicted_disease = self.predict_disease(symptoms_dict)
@@ -346,7 +346,7 @@ class HybridRecommendationSystem:
             'recommendations': recommendations
         }
 
-# 시스템 초기화 시 'drug_train' 원본을 전달합니다.
+# 시스템 초기화 시 'drug_train' 원본을 전달
 hybrid_system = HybridRecommendationSystem(
     best_model,
     all_feature_names, 
