@@ -1,28 +1,25 @@
 {
   "project": "Symptom-based Disease Prediction and Drug Recommendation System",
-  "version": "FINAL v2 (Corrected)",
-  "disease_model": "k-NN",
-  "disease_accuracy": 1.0,
+  "version": "v3 (Realistic Dataset)",
+  "disease_model": "Logistic Regression",
+  "disease_accuracy": 0.8985326256634405,
   "train_data": {
-    "disease": "marslinoedward/disease-prediction-data (4,962 samples)",
-    "drug": "yash9439 + jessicali9530 (322,594 reviews)"
+    "disease": "aniruddha2000/symptom-based-disease-classification-dataset (76870 samples)",
+    "drug": "yash9439 + jessicali9530 (320,796 reviews)"
   },
   "test_data": {
-    "disease": "itachi9604/disease-symptom-description-dataset (4,920 samples)",
-    "drug": "yash9439 + jessicali9530 test sets (107,532 reviews)"
+    "disease": "aniruddha2000/symptom-based-disease-classification-dataset (19218 samples)",
+    "drug": "yash9439 + jessicali9530 test sets (106,942 reviews)"
   },
-  "unused_datasets": [
-    "kaushil268/disease-prediction-using-machine-learning (\ub3d9\uc77c\ud55c \ub370\uc774\ud130\uc774\ubbc0\ub85c \ubbf8\uc0ac\uc6a9)"
-  ],
   "model_performance": {
-    "accuracy": 1.0,
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1_score": 1.0
+    "acc": 0.8985326256634405,
+    "prec": 0.9021866468376778,
+    "rec": 0.8985326256634405,
+    "f1": 0.8990975406067355
   },
   "drug_recommendation": {
     "total_drugs": 3431,
     "total_conditions": 884,
-    "avg_rating": 7.366798014759164
+    "avg_rating": 7.366798014759163
   }
 }
