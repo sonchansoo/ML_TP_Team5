@@ -971,10 +971,3 @@ Macro Avg                         0.9018   0.8980   0.8988   19,218
 - Medical Diagnosis using Machine Learning
 
 ---
-
-**프로젝트 완료일:** 2025년 11월 8일  
-**버전:** v3 (Realistic Dataset)  
-**팀:** ML_TP_Team5  
-**상태:** ✅ 최종 완성
-
----
